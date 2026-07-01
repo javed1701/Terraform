@@ -3,7 +3,7 @@ resource "aws_instance" "name" {
     instance_type = "t3.micro"
     key_name = "NEW-PRT-KEY"
     tags = {
-        Name = "SBI"
+        Name = "SBI-VM"
     }
     availability_zone = "us-east-1b"
     count = 1
